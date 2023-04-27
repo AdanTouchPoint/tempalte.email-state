@@ -10,6 +10,7 @@ export const formater = async(data) =>{
     specificdata.header?.mainTitle ? formatedData.title = specificdata.header?.mainTitle : ''
     specificdata.header?.mainSubtitle ? formatedData.subtitle = specificdata.header.mainSubtitle : ''
     specificdata.header?.instructions ? formatedData.instruction = specificdata.header.instructions : ''
+    specificdata.form?.subtitleForm ? formatedData.subtitleForm = specificdata.form?.subtitleForm : ''
     specificdata.form?.['Find Button'] ? formatedData.findBtnText = specificdata.form?.['Find Button'] : ''
     specificdata.form?.labelOne ? formatedData.firstFormLabel1 = specificdata.form?.labelOne : ''
     specificdata.form?.labelTwo ? formatedData.firstFormLabel2 = specificdata.form?.labelTwo : ''
